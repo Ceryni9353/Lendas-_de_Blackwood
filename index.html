@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>Ingo Lendas</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#home" class="logo">Lendas
+        <span>de Blackwood</span></a>
+    
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>    
+</header>
+
+<selection class="Home" id="Home">
+    <div class="home-img">
+        <img src="./image/Blackwood.jpeg" alt="">
+    </div>
+
+    <div class="home-content">
+        <h1>Esse é o<span> Lendas da Blackwood</span></h1>
+        <h3 class="text-animation">
+            Seja bem vindo&lt;a&gt;
+        </h3>
+    
+        <p>O "Lendas de Blackwood" é um portal dedicado ao fascinante universo das histórias e mitos que
+        envolvem a região de Blackwood. Com uma apresentação cuidadosamente elaborada,
+        o site oferece um catálogo completo de lendas, desde contos ancestrais até narrativas mais recentes.
+        Cada lenda é acompanhada de detalhes e curiosidades que revelam seus segredos mais
+        profundos, proporcionando uma experiência imersiva para os visitantes.Seja você um amante do
+        folclore, um aficionado por histórias de terror ou simplesmente curioso sobre os mistérios de 
+        Blackwood, este site é um destino imperdível. Ele convida os exploradores a descobrir as 
+        narrativas que definem a alma misteriosa desta região, tornando-se uma fonte inestimável de
+        conhecimento e entretenimento para todos os interessados.</p>
+    
+        <a href="#" class="btn">Start</a>    
+    </div>
+</selection>
+
+    <script src="./js/script.js"></script>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyC9_mDaseOb3zujbbVPs721nAwU9VzEbqg",
+          authDomain: "lendas-de-blackwood.firebaseapp.com",
+          projectId: "lendas-de-blackwood",
+          storageBucket: "lendas-de-blackwood.appspot.com",
+          messagingSenderId: "1087335513807",
+          appId: "1:1087335513807:web:b9a1ecce6df28445ac01ba",
+          measurementId: "G-7TE97J0FWB"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+
+</body>
+</html>
